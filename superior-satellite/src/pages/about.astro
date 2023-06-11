@@ -1,0 +1,32 @@
+---
+import PageLayout from "@/layouts/Base";
+import { Image } from "@astrojs/image/components";
+import aboutImg from "../assets/about-astro.png";
+
+const meta = {
+	title: "about",
+	description: "This page describes myself, jack cheng",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">About</h1>
+		<p>
+			my name is jack.
+		</p>
+		<p>
+			i'm a student at brown university and a native of rhode island.
+		</p>
+		<p>
+			i study math and computer science.
+		</p>
+		<div class="flex justify-center">
+			<Image
+				src={aboutImg}
+				alt="A cartoon cactus looking at the 'Astro.build' logo"
+				loading="eager"
+			/>
+		</div>
+	</div>
+</PageLayout>
