@@ -16,9 +16,9 @@ export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
 	author: "Jack Cheng",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-	title: "my site",
+	title: "jack cheng's site",
 	// Meta property used as a default description meta property
-	description: "info for and about jack cheng",
+	description: "a space on the web for jack cheng",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "en-GB",
 	// Meta property, found in src/components/BaseHead.astro L:42
