@@ -3,24 +3,24 @@
 @layer base {
 	:root {
 		color-scheme: light;
-		--theme-bg: #eeddc3;
-		--theme-link: #567c77;
-		--theme-text: #703333;
-		--theme-accent: #703333;
-		--theme-accent-2: #703333;
-		--theme-quote: #703333;
-		--theme-menu-bg: rgb(250 250 250 / 0.85);
+		--theme-bg: #8d7c68;
+		--theme-link: #000000;
+		--theme-text: #000000;
+		--theme-accent: #000000;
+		--theme-accent-2: #000000;
+		--theme-quote: #000000;
+		--theme-menu-bg: rgba(252, 252, 252, 0.85);
 	}
 
 	:root.dark {
 		color-scheme: dark;
-		--theme-bg: #1d1f21;
-		--theme-link: #d480aa;
-		--theme-text: #B8E7E1;
-		--theme-accent: #9E6F21;
-		--theme-accent-2: #7a4b83;
-		--theme-quote: #ccffb6;
-		--theme-menu-bg: rgb(29 31 33 / 0.85);
+		--theme-bg: #011925;
+		--theme-link: #AB5F00;
+		--theme-text: #AB5F00;
+		--theme-accent: #AB5F00;
+		--theme-accent-2: #AB5F00;
+		--theme-quote: #AB5F00;
+		--theme-menu-bg: rgba(255, 255, 255, 0.85);
 	}
 
 	html {
