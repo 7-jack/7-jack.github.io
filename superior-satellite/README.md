@@ -5,6 +5,12 @@
   🚀 Astro Theme Cactus 🌵
 </h1>
 
+# TODOs
+
+- Update ``sitemap''?
+
+# Rest
+
 Astro Theme Cactus is a simple opinionated starter built with the Astro framework. Use it to create an easy-to-use blog or website.
 
 ## Key Features

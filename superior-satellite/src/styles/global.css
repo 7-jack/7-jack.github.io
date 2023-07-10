@@ -3,7 +3,7 @@
 @layer base {
 	:root {
 		color-scheme: light;
-		--theme-bg: #8d7c68;
+		--theme-bg: #bea68e;
 		--theme-link: #000000;
 		--theme-text: #000000;
 		--theme-accent: #000000;
@@ -15,11 +15,11 @@
 	:root.dark {
 		color-scheme: dark;
 		--theme-bg: #011925;
-		--theme-link: #AB5F00;
-		--theme-text: #AB5F00;
-		--theme-accent: #AB5F00;
-		--theme-accent-2: #AB5F00;
-		--theme-quote: #AB5F00;
+		--theme-link: #b06407;
+		--theme-text: #b06407;
+		--theme-accent: #b06407;
+		--theme-accent-2: #b06407;
+		--theme-quote: #b06407;
 		--theme-menu-bg: rgba(255, 255, 255, 0.85);
 	}
 
