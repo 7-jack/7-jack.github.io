@@ -1,8 +1,8 @@
 ---
-title: "first post"
+title: "an explanation"
 publishDate: "6 June 2023"
-description: "this is the first post ever on this site, mainly just for testing."
-tags: ["first", "test"]
+description: "what is this place? why is this here? who are you?"
+tags: ["meta"]
 ---
 
 # h1
