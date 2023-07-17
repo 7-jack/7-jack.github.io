@@ -1,7 +1,7 @@
 ---
-title: "an explanation"
+title: "a placeholder"
 publishDate: "6 June 2023"
-description: "what is this place? why is this here? who are you?"
+description: "abcdefghijklmnopqrstuvwxyabcdefghijklmnopqrstuvwxy"
 tags: ["meta"]
 ---
 
