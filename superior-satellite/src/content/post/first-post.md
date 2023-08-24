@@ -1,7 +1,7 @@
 ---
-title: "a placeholder"
-publishDate: "6 June 2023"
-description: "abcdefghijklmnopqrstuvwxyabcdefghijklmnopqrstuvwxy"
+title: "Resources"
+publishDate: "25 August 2023"
+description: "Collection of resources I've found helpful."
 tags: ["meta"]
 ---
 
