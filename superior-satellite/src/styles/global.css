@@ -3,13 +3,12 @@
 @layer base {
 	:root {
 		color-scheme: light;
-		--theme-bg: #f4f4f4;
+		--theme-bg: #F5F5F5;
 		--theme-link: #222222;
 		--theme-text: #222222;
 		--theme-accent: #222222;
-		--theme-accent-2: #222222;
+		--theme-accent-2: #820000;
 		--theme-quote: #222222;
-		--theme-menu-bg: rgba(252, 252, 252, 0.85);
 	}
 
 	:root.dark {
@@ -18,9 +17,8 @@
 		--theme-link: #f4f3f2;
 		--theme-text: #f4f3f2;
 		--theme-accent: #f4f3f2;
-		--theme-accent-2: #f4f3f2;
-		--theme-quote: #765637;
-		--theme-menu-bg: rgba(255, 255, 255, 0.85);
+		--theme-accent-2: #41644A;
+		--theme-quote: #f4f3f2;
 	}
 
 	html {

@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 publishDate: "25 August 2023"
-description: "Collection of resources I've found helpful."
+description: "Collection of useful things"
 tags: ["meta"]
 ---
 

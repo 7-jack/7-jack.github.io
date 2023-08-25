@@ -11,29 +11,34 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 ---
 
 <PageLayout meta={{ title: "Home" }}>
-	<section>
+	<section class="mb-8">
 		<h1 class="title mb-6">Welcome, traveler.</h1>
-		<p class="mb-4">
+		<p class="mb-6">
 			My name is Jack Cheng.
 		</p>
-		<p class="mb-4">
-			I study Math and CS at Brown University. Currently I'm abroad in Budapest.
+		<p class="mb-6">
+			I'm a senior at at Brown University studying Math and Computer Science. During the Fall of 2023 I am studying mathematics abroad in Budapest.
+		</p>
+		<p class="mb-6">
+			My academic interests lie in cryptography, formal methods, and computer systems.
+		</p>
+	</section>
+	<section class="mb-8">
+		<h1 class="title mb-6">My door is open</h1>
+		<p class="mb-6">
+			and I'm always happy to chat.
 		</p>
 		<p class="mb-4">
-			My main interests lie in cryptography and formal methods.
-		</p>
-		<!-- <SocialList/> -->
-		<p class="mb-4">
-			My door is always open, currently via 
+			Currently, you can reach me through:
 			<ul id="socials">
 				<li>
-					Email: <a href = "mailto: jackcheng2002@gmail.com">jackcheng2002@gmail.com</a>
+					email: <a href = "mailto: jackcheng2002@gmail.com">jackcheng2002@gmail.com</a>
 				</li>
 			</ul>
 		</p>
 	</section>
-	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Posts</h2>
+	<!-- <section aria-label="Blog post list" class="mt-16">
+		<h2 class="title mb-4 text-xl">Writing</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				allPostsByDate.map((p) => (
@@ -43,5 +48,5 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 				))
 			}
 		</ul>
-	</section>
+	</section> -->
 </PageLayout>
