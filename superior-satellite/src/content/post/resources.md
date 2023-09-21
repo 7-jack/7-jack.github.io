@@ -1,8 +1,8 @@
 ---
-title: "Resources"
-publishDate: "25 August 2023"
-description: "A collection of useful things."
+title: "Empty"
+publishDate: "21 September 2023"
+description: "Nothing is here."
 tags: ["meta"]
 ---
 
-To be written.
+Nothing.
