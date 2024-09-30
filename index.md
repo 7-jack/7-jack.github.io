@@ -5,14 +5,12 @@
 layout: default
 ---
 
-I studied math and computer science at Brown University. 
+Currently at MIT Lincoln Laboratory.
+
+Studied math and computer science at Brown University. 
 
 Interested in crytography, formal methods, and computer systems.
 
 <!-- My door is [open](mailto:jackcheng2002@gmail.com). -->
-
-&nbsp;
-
-*"A little learning is a dangerous thing"* --- Alexander Pope
 
 <!-- {% include posts_list.html %} -->
