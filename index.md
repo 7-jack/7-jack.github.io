@@ -5,9 +5,9 @@
 layout: default
 ---
 
-Currently at MIT Lincoln Laboratory.
+I'm currently at MIT Lincoln Laboratory.
 
-Studied math and computer science at Brown University. 
+Previously, I studied math and computer science at Brown University. 
 
 Interested in crytography, formal methods, and computer systems.
 
