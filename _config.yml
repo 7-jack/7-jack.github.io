@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+theme: louie
 title: Jack Cheng
 email: jackcheng2002@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -22,12 +23,27 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  7-jack
 
+# todo
+title: HTML <title>, which is overridden by post/page title if exists
+baseurl: ""
+# favicon: "/path/to"
+# g_analytics: UA-12345678-1
+
+header: Jack Cheng
+desc: >
+  I'm currently working on formal methods at MIT Lincoln Laboratory.
+  <br><br>
+  Previously, I studied math and computer science at Brown University.
+  <br><br>
+  Interested in crytography, formal methods, and computer systems.
+
+
+
 # Build settings
 markdown: kramdown
 # remote_theme: louie
-remote_theme: louie
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
