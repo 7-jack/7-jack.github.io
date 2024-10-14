@@ -16,22 +16,18 @@
 # theme: louie
 # Build settings
 markdown: kramdown
-remote_theme: louie
-plugins:
-  - jekyll-feed
+# remote_theme: louie
+# plugins:
+#   - jekyll-feed
 title: Jack Cheng
-email: jackcheng2002@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jack Cheng's personal site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+email: jackcheng2002@gmail.com
 twitter_username: 
 github_username:  7-jack
-
-# todo
-title: HTML <title>, which is overridden by post/page title if exists
-baseurl: ""
-# favicon: "/path/to"
+favicon: "/assets/favicon/flare.jpg"
 # g_analytics: UA-12345678-1
 
 header: Jack Cheng
@@ -41,8 +37,6 @@ desc: >
   Previously, I studied math and computer science at Brown University.
   <br><br>
   Interested in crytography, formal methods, and computer systems.
-
-
 
 
 
