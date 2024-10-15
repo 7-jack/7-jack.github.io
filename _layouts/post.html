@@ -37,10 +37,9 @@
               <a class="post__paginate-right" href="{{ site.url }}{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
             {% endif %}
           </div>
-        {% endif %}
-      </div>
-
-      {% include posts_list.html uid=page.id %}
+        {% endif %}  
+        </div>
+        {% include posts_list.html uid=page.id %}
     </div>
   </body>
 
