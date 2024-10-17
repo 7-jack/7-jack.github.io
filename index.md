@@ -2,17 +2,21 @@
 layout: default
 ---
 
-I'm currently working on formal methods at MIT Lincoln Laboratory.
+![image](/assets/pics/fuji.JPG){: style="float:right; max-width: 50%; margin: 0 1em"}
 
-Previously, I studied math and computer science at Brown University.
+Currently @ <br>
+MIT Lincoln Laboratory
+
+Previously @
+* Brown University
+* Budapest Semesters in Mathematics
+* Los Alamos National Laboratory
+
+Reach me via
+* jackcheng2002@gmail.com
+
+<hr style="border-top: solid 1px; margin: 4em 0 3em 0;" />
 
 Interested in cryptography, formal methods, and computer systems.
 
 {% include socials.html %}
-
-<div class="bio__photo">
-<figure id="fuji">
-    <img src="/assets/pics/fuji.JPG" alt="missing" style="max-width=100%"/>
-    <!-- <figcaption><small><i>on top of the world!</i></small></figcaption> -->
-</figure>
-</div>

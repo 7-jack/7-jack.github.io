@@ -1,8 +1,9 @@
 .bio {
   // center
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 50%;
   margin-bottom: 50px;
+  overflow: hidden;
 }
 
 .bio__header {
@@ -30,8 +31,7 @@
 }
 
 #fuji {
-  max-width: 70%;
-  margin: 10px auto;
+  margin: auto;
 }
 
 #fuji img {

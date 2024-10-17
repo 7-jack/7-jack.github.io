@@ -65,6 +65,7 @@ body {
   font-size: $font__size;
   font-weight: $font__weight;
   line-height: $font__line-height;
+  word-break: break-all;
 }
 
 .container {
@@ -91,4 +92,28 @@ body {
   .container {
     margin: 0 auto;
   }
+}
+
+.parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  // text-align: center;
+}
+.child_left {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  max-width: 30%;
+}
+.child_right {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  max-width: 50%;
+}
+
+ul {
+  margin-block-start: -1em;
+  padding-inline-start: 1.5em;
 }
