@@ -1,10 +1,18 @@
 .bio {
   // center
   margin: 0 auto;
-  max-width: 50%;
+  max-width: $reg-width;
   margin-bottom: 50px;
   overflow: hidden;
 }
+
+@include media-query($on-palm) {
+  .bio {
+    max-width: $palm-width
+  }
+}
+
+
 
 .bio__header {
   margin-bottom: 20px;
@@ -31,14 +39,7 @@
 }
 
 #fuji {
-  margin: auto;
-}
-
-#fuji img {
-  max-width: 100%;
-  text-align: center;
-}
-
-figure figcaption {
-  text-align: center;
+  float:right;
+  max-width: 54%;
+  margin: 0 0 0 1em;
 }

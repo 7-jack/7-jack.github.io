@@ -1,5 +1,7 @@
 $on-palm:           600px !default;
-$on-laptop:         800px !default;
+$palm-width: 77%;
+$reg-width: 50% !default;
+// $on-laptop:         800px !default;
 
 // typography
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
@@ -15,7 +17,7 @@ $color__beige:      #f8f8f1;
 $color__yellow:     #fefeca;
 
 @mixin media-query($device) {
-  @media screen and (min-width: $device) {
+  @media screen and (max-width: $device) {
     @content;
   }
 }
@@ -58,14 +60,14 @@ html {
 
 body {
   width: 100%;
-  margin: 25px 0;
+  margin: 120px 0 50px;
   padding: 0;
   background: $color__beige;
   font-family: $inconsolata;
   font-size: $font__size;
   font-weight: $font__weight;
   line-height: $font__line-height;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .container {
@@ -82,35 +84,11 @@ body {
   .container {
     margin: 0 auto;
   }
-}
 
-@include media-query($on-laptop) {
-  body {
-    margin: 120px 0 50px;
+  #fuji {
+    max-width: 100% !important;
+    margin: 1em 0 1.5em auto !important;
   }
-
-  .container {
-    margin: 0 auto;
-  }
-}
-
-.parent {
-  border: 1px solid black;
-  margin: 1rem;
-  padding: 2rem 2rem;
-  // text-align: center;
-}
-.child_left {
-  display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
-  max-width: 30%;
-}
-.child_right {
-  display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
-  max-width: 50%;
 }
 
 ul {

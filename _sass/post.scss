@@ -1,7 +1,7 @@
 .post {
   // center
   margin: 0 auto;
-  max-width: 50%;
+  max-width: $reg-width;
 }
 
 .post__meta {
@@ -20,7 +20,18 @@ $paginate-padding: 13px;
 .post__paginate-right {
   position: relative;
   display: block;
-  width: 50%;
+  width: $reg-width;
+}
+
+@include media-query($on-palm) {
+  .post {
+    max-width: $palm-width;
+  }
+
+  .post__paginate-left,
+  .post__paginate-right {
+    width: $palm-width;
+  }
 }
 
 .post__paginate-left {
@@ -76,13 +87,5 @@ $paginate-padding: 13px;
 
   img {
     max-width: 100%;
-  }
-}
-
-// media queries
-@include media-query($on-laptop) {
-  .post {
-    min-width: 500px;
-    width: 50%;
   }
 }

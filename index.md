@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![image](/assets/pics/fuji.JPG){: style="float:right; max-width: 54%; margin: 0 0 0 1em;"}
+![image](/assets/pics/fuji.JPG){:id="fuji"}
 
 Currently @ <br>
 <strong style="color:#CC3A00">MIT Lincoln Laboratory</strong>
@@ -17,8 +17,8 @@ Reach me via
 
 <hr style="border-top: solid 1px; margin: 4em 0 3em 0;" />
 
-Interested in <strong style="color:#77037B">cryptography</strong>, <strong style="color:#03346E">formal methods</strong>, <strong style="color:#116A7B">computer systems</strong> and their <strong style="color:#A9294F">intersection</strong>.
+I'm broadly interested in <strong style="color:#77037B">cryptography</strong>, <strong style="color:#03346E">formal methods</strong>, and <strong style="color:#A9294F">computer systems</strong>.
 
-<!-- colors palette... EF5A6F TODO: move somewhere else -->
+<!-- colors palette... EF5A6F, 116A7B TODO: move somewhere else -->
 
 {% include socials.html %}

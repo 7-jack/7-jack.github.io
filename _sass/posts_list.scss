@@ -1,4 +1,10 @@
 .posts_list {
-  max-width: 50%;
+  max-width: $reg-width;
   margin: 0 auto;
+}
+
+@include media-query($on-palm) {
+  .posts_list {
+    max-width: $palm-width;
+  }
 }
