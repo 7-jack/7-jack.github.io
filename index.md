@@ -17,7 +17,7 @@ Reach me via
 
 <hr style="border-top: solid 1px; margin: 4em 0 3em 0;" />
 
-I'm broadly interested in <strong style="color:#77037B">cryptography</strong>, <strong style="color:#03346E">formal methods</strong>, and <strong style="color:#A9294F">computer systems</strong>.
+I'm interested in <strong style="color:#77037B">cryptography</strong>, <strong style="color:#03346E">formal methods</strong>, and <strong style="color:#A9294F">computer systems</strong>.
 
 <!-- colors palette... EF5A6F, 116A7B TODO: move somewhere else -->
 
